@@ -1,0 +1,48 @@
+<html>
+<head>
+<title>Letter</title>
+</head>
+
+<body style="background-color: #F7F6B7;">
+
+<div style="width: 400px; padding: 15px;">
+
+<div align="right">
+
+Mehwish Shaikh <br />
+
+Mehran UET, Jamshoro.<br />
+
+090078601<br />
+
+</div>
+
+<p><b> Dated: 2-November-2019</p> <!– this can be removed –>
+
+<p>
+
+Dear Teacher, </p>
+
+<p>
+
+I am writing this letter to tell you how happy I am to be in your class because you're the best teacher. This year has been hard but you helped in a very best way. <br>
+Thankyou so much for being such a thoughtful and kind teacher. <br>
+Your tutoring made a huge difference. I felt like I would never understand web development, but now I feel really very confident in this field. <br>
+Thankyou again for being a great teacher. Allah bless you!
+
+</p> <br>
+
+<div align="left"> 
+
+Regards <br>
+
+F16SW60 
+section-II
+
+</div>
+
+</div>
+
+</body>
+
+</html>

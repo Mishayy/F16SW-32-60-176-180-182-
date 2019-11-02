@@ -1,0 +1,60 @@
+<html>
+<head>
+<title> lab </title>
+</head>
+<body bgcolor="pink">
+<h2 align="center"> Mehwish Shaikh </h2>
+<img src="cccc.jpg" align="right" height="200" width="200"> 
+<h3 style="color:white">Personal Information</h3>
+
+<table>
+<table border="2px">
+<tr>
+<td>First Name</td>
+<td>Mehwish</td>
+</tr>
+
+<tr>
+<td>Last Name</td>
+<td>Shaikh</td>
+</tr>
+
+<tr>
+<td>Department</td>
+<td>Software Engineering</td>
+</tr>
+
+<tr>
+<td>Roll#</td>
+<td>F16SW60</td>
+</tr>
+
+<tr>
+<td>Religion</td>
+<td>Islam</td>
+</tr>
+
+<tr>
+<td>Nationality</td>
+<td>Pakistani</td>
+</tr>
+
+<tr>
+<td>Contact Number</td>
+<td>090078601</td>
+</tr>
+
+<tr>
+<td rowspan="2"><a HREF= "MAILTO:mehwishshaikh173@gmail.com"> Email</a></td>
+</tr>
+
+</table>
+<br>
+<br>
+<h3 style="color:white">Education</h3>
+<pre>Mehran UET Jamshoro                    2016-2020</pre>
+<pre>Govt: Girls Degree College Hyderabad   2014-2016</pre>
+<pre>Anna English High Schoool              2003-2014</pre>
+
+</body>
+</html>
