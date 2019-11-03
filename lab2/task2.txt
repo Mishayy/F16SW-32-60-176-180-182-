@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body bgcolor="skyblue">
+
+<h1> Payment Form </h1>
+
+<p> Required fields are followed by * </p>
+<h2> CONTACT INFORMATION </h2>
+<fieldset>
+   <legend>Title</legend>
+	<input type="radio" name="gender" value="Mr."> Mr.<br>
+<input type="radio" name="gender" value="Mrs."> Mrs.<br>
+</fieldset>
+Name: * <input type="text" name="name" ><br>
+Password: * <input type="pass" name="pass"><br>
+Email: * <input type="text" name="email"> <br> <br>
+<h2> PAYMENT INFORMATION </h2>
+Card Type: 
+<select>
+  </select> <br>
+Card Number: * <input type="text" name=""> <br>
+Expiration date: * <input type="date" name=""> <br>
+<br> <br>
+<button>Validate my payment!</button>
+</body>
+</html>
