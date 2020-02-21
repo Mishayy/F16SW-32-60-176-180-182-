@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="feedback_form.css">
+    
+    
+    <title>Document</title>
+</head>
+<body>
+    
+    <form class=" new_form" method="post">
+        <input type="text"  name='userName' class="form-control" id="uname_input" placeholder="John"/>
+        <input type="email" class="form-control" id="email_input" placeholder="John@gmail.com"/>
+        <textarea name="user_feedback" id="textArea" cols="30" rows="10"  placeholder="Type your Feedback here..." class="form-control"></textarea>
+        <input type="submit" class="btn btn-primary mb-2 form-control" value="Submit" id="button"/>
+    </form>
+    
+    <script>
+        const userName=document.querySelector('#uname_input');
+        const userEmail=document.querySelector('#email_input');
+        const textArea=document.querySelector('#textArea');
+        const submitButton=document.querySelector('#button');
+        submitButton.addEventListener('click',()=>{
+            if(userName.value=='' || userEmail.value=='' || textArea.value==''){
+                alert('properly fill the fields before submitting');
+            }
+            else{
+                alert('Form submitted Successfully...')
+            }
+        });
+        
+    </script>
+</body>
+</html>
